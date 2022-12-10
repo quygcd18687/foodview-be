@@ -1,0 +1,44 @@
+{
+  "name": "foodview_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "install": "npm run server-install",
+    "dev": "npm run server",
+    "build": "npm install && npm run build"
+  },
+  "browser": {
+    "fs": false,
+    "path": false,
+    "os": false
+  },
+  "prettier": {
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "none"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "core-js": "^2.6.12",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "heroku": "^7.67.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "peer": "^0.6.1",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "webpack": "^5.65.0",
+    "webpack-config": "^7.5.0"
+  }
+}
