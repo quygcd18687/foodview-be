@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "engines":{ "node": "18.x"},
   "scripts": {
     "start": "node server.js",
-    "server": "nodemon server.js",
-    "install": "npm run server-install",
-    "dev": "npm run server",
-    "build": "npm install && npm run build"
+    "server": "nodemon server.js"
   },
   "browser": {
     "fs": false,
